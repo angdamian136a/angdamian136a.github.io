@@ -10,12 +10,12 @@ const Navbar = () => {
         setDropMenu(!dropMenu);
     };
     return(
-        <div className="w-full h-24 bg-slate-800 sticky top-0">
-            <div className="container mx-0 px-7 h-full">
+        <div className="w-full h-26 bg-slate-800 sticky top-0">
+            <div className="container px-6 h-full">
                 <div className="flex justify-between items-center h-full">
                     <Profile />
                     <div>
-                        <ul className="hidden md:flex gap-x-8 text-slate-300 font-semibold text-xl lg:text-2xl">
+                        <ul className="hidden md:flex gap-x-8 text-slate-300 font-semibold text-3xl lg:text-4xl">
                             <li>
                                 <Link href={"/about"}>
                                     <p className=" hover:text-white mr-4">About</p>

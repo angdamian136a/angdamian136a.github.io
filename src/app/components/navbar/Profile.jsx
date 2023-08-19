@@ -27,7 +27,7 @@ const Profile = () => {
     // }, []);
 
     return (
-        <div className="my-5">
+        <div className="my-3">
             <Link 
                 href={"/"} 
                 // style={{ display: showButton ? "none" : "block" }}
@@ -37,8 +37,8 @@ const Profile = () => {
                     className="rounded-full object-center border-4 border-slate-300 hover:border-white"
                     src={"/images/profile2.jpeg"} 
                     alt="Profile picture" 
-                    width={"80"} 
-                    height={"80"} 
+                    width={"100"} 
+                    height={"100"} 
                 />
             </Link>
             {/* <div 
