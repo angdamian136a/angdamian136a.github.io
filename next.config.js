@@ -3,6 +3,7 @@
 */
 const nextConfig = {
   output: 'export',
+  disableExperimentalFeaturesWarning: true
 };
 
 export default nextConfig;
