@@ -42,7 +42,8 @@ const Portfolio = () => {
                     <ul>
                         <li>
                             <div className="m-10">
-                                <p className="font-mono font-semibold text-2xl">My Personal Website</p>
+                                <h4 className="font-mono font-semibold text-2xl">My Personal Website</h4>
+                                <p className="font-mono leading-6 mt-3">First unguided (front-end) web development project using HTML, CSS and JavaScript along with React.js while experimenting with the latest Next.js and Tailwind CSS frameworks. Explored version control in greater detail with live hosting of static website on GitHub Pages.</p>
                             </div>
                         </li>
                     </ul>
@@ -58,7 +59,10 @@ const Portfolio = () => {
                     >BSB Curriculum</Link>
                 </div>
                 <div className="mx-5 mt-10">
-                    <h3 className="font-serif text-4xl italic font-bold">Year 1 Semester 1 [Completed]</h3>
+                    <div className="lg:flex justify-between">
+                        <h3 className="font-serif text-4xl italic font-bold">Year 1 Semester 1 [Completed]</h3>
+                        <h4 className="font-serif text-2xl italic font-normal">Aug 2021 - Dec 2021</h4>
+                    </div>
                     <div className="m-10">
                         <div>
                             <h5 className="font-mono italic text-xl">Total AUs: 19</h5>
@@ -102,7 +106,10 @@ const Portfolio = () => {
                     </ul>
                 </div>
                 <div className="mx-5 mt-10">
-                    <h3 className="font-serif text-4xl italic font-bold">Year 1 Semester 2 [Completed]</h3>
+                    <div className="lg:flex justify-between">
+                        <h3 className="font-serif text-4xl italic font-bold">Year 1 Semester 2 [Completed]</h3>
+                        <h4 className="font-serif text-2xl italic font-normal">Jan 2022 - May 2022</h4>
+                    </div>
                     <div className="m-10">
                         <div>
                             <h5 className="font-mono italic text-xl">Total AUs: 20</h5>
@@ -162,7 +169,10 @@ const Portfolio = () => {
                     </ul>
                 </div>
                 <div className="mx-5 mt-10">
-                    <h3 className="font-serif text-4xl italic font-bold">Year 2 Semester 1 [Completed]</h3>
+                    <div className="lg:flex justify-between">
+                        <h3 className="font-serif text-4xl italic font-bold">Year 2 Semester 1 [Completed]</h3>
+                        <h4 className="font-serif text-2xl italic font-normal">Aug 2022 - Dec 2022</h4>
+                    </div>
                     <div className="m-10">
                         <div>
                             <h5 className="font-mono italic text-xl">Total AUs: 17</h5>
@@ -206,7 +216,10 @@ const Portfolio = () => {
                     </ul>
                 </div>
                 <div className="mx-5 mt-10">
-                    <h3 className="font-serif text-4xl italic font-bold">Year 2 Semester 2 [Completed]</h3>
+                    <div className="lg:flex justify-between">
+                        <h3 className="font-serif text-4xl italic font-bold">Year 2 Semester 2 [Completed]</h3>
+                        <h4 className="font-serif text-2xl italic font-normal">Jan 2023 - May 2023</h4>
+                    </div>
                     <div className="m-10">
                         <div>
                             <h5 className="font-mono italic text-xl">Total AUs: 20</h5>
@@ -258,7 +271,10 @@ const Portfolio = () => {
                     </ul>
                 </div>
                 <div className="mx-5 mt-10">
-                    <h3 className="font-serif text-4xl italic font-bold">Year 3 Semester 1 [Ongoing]</h3>
+                    <div className="lg:flex justify-between">
+                        <h3 className="font-serif text-4xl italic font-bold">Year 3 Semester 1 [Ongoing]</h3>
+                        <h4 className="font-serif text-2xl italic font-normal">Aug 2023 - Dec 2023</h4>
+                    </div>
                     <ul>
                         <li>
                             <div className="m-10">
