@@ -11,15 +11,15 @@ const Menu = ({toggleMenu}) => {
                         </Link>
                     </li>
                     <li>
-                        <Link href={"/projects-page"}>
-                            <p className="text-xl hover:text-white mr-4 py-2">Projects</p>
+                        <Link href={"/portfolio"}>
+                            <p className="text-xl hover:text-white mr-4 py-2">Portfolio</p>
                         </Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link href={"/blog"}>
                             <p className="text-xl hover:text-white mr-4 py-2">Blog</p>
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         ) : null
